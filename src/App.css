@@ -1,0 +1,26 @@
+.App {
+    display: flex;
+    height: 100%;
+    text-align: center;
+}
+
+.tab-container {
+    margin: 0;
+    border-right: 2px solid #66a8ff;
+    width: 200px;
+    min-height: 100%;
+    color: #66a8ff;
+}
+
+.tab-container li {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+
+.content-container {
+    margin-left: 200px;
+}
+
